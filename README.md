@@ -10,13 +10,20 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 2. Unzip the data set in any folder (e.g. C:\UCI HAR Dataset\) in your PC
 3. Download the run_analysis.R script and MergedAverage.txt in the same folder of the data set
 4. Open RStudio 
-5. Run these commands:
+5. Change the working folder to the same folder of the data set
+
+```R
+> setwd("C:\UCI HAR Dataset\")
+```
+
+6. Run these commands:
 
 ```R
 > source(run_analysis.R)
 > dataset <- run_analysis()
 ```
-6.  The processed result is stored in the dataset variable. You could view the variable as follow:
+
+7.  The processed result is stored in the dataset variable. You could view the variable as follow:
 
 ```R
 > View(dataset)
