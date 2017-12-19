@@ -21,19 +21,12 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 ```R
 > View(dataset)
 ```
-7. Alternatively, you could use this command to load the saved result
-
-```R
-> dataset <- read.table("MergedAverage.txt")
-> View(dataset)
-```
 
 ## Project Contents
 
 File | Description
 -------- | -------------
 run_analysis.R | The script to merged and average the collected data
-MergedAverage.txt | The space delimited file containing the average of each variable for each activity and each subject of the merged data set
 CodeBook.md | Indicate all the variables and summaries calculated, along with units, and any other relevant information.
 README.md | This file
 
